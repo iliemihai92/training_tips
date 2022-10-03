@@ -9,8 +9,11 @@
 
 # **Pre-training**
 
-  - TPU or GPU ? Here is recommended using TPU because it can lead to significant speed-ups and cost savings: see results
+  - TPU or GPU ? Here is recommended using TPU because it can lead to significant speed-ups and cost savings: see (training_time)
   - PyTorch/XLA on TPU can work very well, but doesn't have great suport. FLAX on TPU is more robust and faster than PyTorch/XLA, but requires to know JAX/FLAX.
   - Optimizations:
     - for pre-training the same optimization tips apply then the ones written above
 
+(training_time)
+Task ( | ) TPU v3-8 (Flax) ( | ) TPU v3-8 (Pytorch/XLA) ( | ) 8 GPU (PyTorch)
+MLM ( | ) 15h32m ( | ) 23h46m ( | ) 44h14m
