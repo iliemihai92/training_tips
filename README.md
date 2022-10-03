@@ -15,5 +15,6 @@
     - for pre-training the same optimization tips apply then the ones written above
 
 (training_time)
-Task ( | ) TPU v3-8 (Flax) ( | ) TPU v3-8 (Pytorch/XLA) ( | ) 8 GPU (PyTorch)
-MLM ( | ) 15h32m ( | ) 23h46m ( | ) 44h14m
+|Task|TPU v3-8 (Flax)|TPU v3-8 (Pytorch/XLA)|8 GPU (PyTorch)|
+|----|---------------|----------------------|---------------|
+|MLM |      15h32m   |          23h46m      |     44h14m    |
